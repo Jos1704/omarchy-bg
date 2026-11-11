@@ -19,6 +19,7 @@ Mosaico junta tres ideas de la comunidad de [Herdr](https://herdr.dev):
   - **Terminales**: sólidas, 85, 70, 55, 40 o 25 % de opacidad (cuánto se ve el fondo).
   - **Cambiar cada**: nunca, 5, 15, 30 o 60 minutos, en orden o **aleatorio**.
   - **Incluir** los fondos del tema de Omarchy en la rotación.
+- **Tema EVA-01**: `themes/eva-01.json` con su fondo original `backgrounds/mosaico/eva-01.webp` (hexágonos, costuras verdes y franjas de advertencia; fuente en `extras/eva-01-wallpaper.svg`).
 - **Panel de sesión** (`⌘⌃S` o el botón de panel de la barra) del agente enfocado:
   - estado (trabajando, te necesita, terminó, en espera)
   - **tokens** (entrada ↓salida)
@@ -93,7 +94,7 @@ Funcionan solo en el layout Mosaico. En Linux o Windows, `install.sh` usa `keys.
 | Mis fondos | `~/.config/herdr-app/backgrounds/mosaico/` (o el botón **Abrir carpeta**) |
 | Opacidad inicial de las terminales | `terminal_opacity` en `layouts/mosaico.json` |
 | Ancho del panel de sesión | nodo `session` en `layouts/mosaico.json` (320px, de 260 a 520) |
-| Colores | cualquier tema en `themes/` (`⌘⌃T`) |
+| Colores | cualquier tema en `themes/` (`⌘⌃T`), o **`eva-01`** (morado, verde neón y naranja) desde Ajustes → Look |
 | Fuente | `font` / `ui_font` en el layout (JetBrains Mono; Omarchy usa CaskaydiaMono Nerd Font) |
 
 ## Desarrollo

@@ -56,6 +56,7 @@ json.dump(l, open(sys.argv[2], "w"), indent=2, ensure_ascii=False)
 PY
 fi
 copy_file "$SRC/layouts/mosaico.svg" "layouts/mosaico.svg"
+for t in "$SRC"/themes/*.json; do [ -f "$t" ] && copy_file "$t" "themes/$(basename "$t")"; done
 mkdir -p "$H/backgrounds/mosaico"
 for f in "$SRC"/backgrounds/mosaico/*; do [ -f "$f" ] && copy_file "$f" "backgrounds/mosaico/$(basename "$f")"; done
 
