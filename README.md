@@ -32,7 +32,7 @@ Mosaico junta tres ideas de la comunidad de [Herdr](https://herdr.dev):
 Requisitos: [Herdr](https://herdr.dev) con `herdr-app` en el PATH, `git`, `python3`, y `jq` para la status line.
 
 ```sh
-git clone https://github.com/<tu-usuario>/herdr-mosaico
+git clone https://github.com/Jos1704/herdr-mosaico
 cd herdr-mosaico
 ./install.sh
 ```
@@ -46,7 +46,7 @@ El instalador:
 
 **No sobrescribe nada**: lo que ya existe se queda como está y el instalador te lo reporta. Para volver a tu layout usa `ctrl-shift-l`.
 
-También puedes pedírselo a tu agente dentro de Herdr: *"Lee ~/.config/herdr-app/AGENTS.md y añade el layout de github.com/<tu-usuario>/herdr-mosaico"*.
+También puedes pedírselo a tu agente dentro de Herdr: *"Lee ~/.config/herdr-app/AGENTS.md y añade el layout de github.com/Jos1704/herdr-mosaico"*.
 
 > [!NOTE]
 > Lo que corre en tu máquina:
