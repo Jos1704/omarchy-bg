@@ -1,0 +1,9 @@
+.DS_Store
+node_modules/
+# The Frieren wallpaper is composed from fan art found on Pinterest (see CHO-kr/frieren);
+# it isn't ours to redistribute. Keep it local; install.sh falls back to an Omarchy wallpaper.
+backgrounds/mosaico/frieren.jpg
+
+# Written by `herdr-app check` (Herdr regenerates them)
+gpui-kit.d.ts
+jsconfig.json

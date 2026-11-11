@@ -1,0 +1,15 @@
+{
+  "layout:mosaico": {
+    "cmd-ctrl-w": "mosaico.next-wallpaper",
+    "cmd-ctrl-shift-w": "mosaico.prev-wallpaper",
+    "cmd-ctrl-r": "mosaico.random-wallpaper",
+    "cmd-ctrl-b": "mosaico.wallpapers",
+    "cmd-ctrl-s": "layout.toggle:session",
+    "cmd-ctrl-t": "mod.open:omarchy-themes",
+    "cmd-ctrl-k": "mod.open:omarchy-keys",
+    "ctrl-shift-p": "mod.open:omarchy-palette",
+    "cmd-,": "mod.open:omarchy-settings",
+    "ctrl-shift-m": "mod.open:omarchy-mod-manager",
+    "ctrl-alt-shift-t": "omarchy-tabs.reopen"
+  }
+}
